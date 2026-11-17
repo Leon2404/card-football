@@ -648,4 +648,13 @@ if("serviceWorker" in navigator && location.protocol.startsWith("http")){window.
 loadPreferences();refresh();setBattle("ЦЕНТР ПОЛЯ","","Матч ещё не начался");
 </script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const SUPABASE_URL = https://xhpbelqwqqnlqycjfovw.supabase.co/rest/v1/
+const SUPABASE_KEY = sb_publishable_dBPhTF5BnV_9HQUAeEpgFg_KiKuRad4
+const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_KEY
+);
+</script>
 </html>
